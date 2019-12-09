@@ -1,0 +1,20 @@
+{
+  "name": "tdd-pp-proj",
+  "version": "1.0.0",
+  "description": "A project for Test-Driven Development and Pair Programming hands-on",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "mocha --opts=./mocha.opts",
+    "watch": "mocha -w --opts=./mocha.opts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.2.2"
+  }
+}
